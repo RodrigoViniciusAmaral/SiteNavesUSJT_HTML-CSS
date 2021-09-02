@@ -1,0 +1,20 @@
+.button {
+    padding: 0.7rem 1.5rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background 0.3s, padding 0.3s;
+}
+    .button:hover {
+        padding: 0.7rem 1.7rem;
+    }
+
+/*elemento que possui a classe "button" E "green"*/
+.button.green {
+    background: #1BBC9B;
+}
+    .button.green:hover {
+        background: #1aa387;
+    }

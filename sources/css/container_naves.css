@@ -1,0 +1,15 @@
+#container_naves {
+    background: #1BBC9B;
+    padding: 4rem 1rem;
+}
+
+#container_naves #img_nave {
+    max-width: 23rem;
+    display: block;
+    margin: auto;
+}
+
+#container_naves p {
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,35 @@
+form {
+    margin: auto;
+    max-width: 38rem
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+form .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+    form .columns div {
+        margin-bottom: 0;
+    }
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #2D3E50;
+}
+
+input {
+    padding: 0 0.5rem;
+    width: 100%;
+    height: 2.5rem;
+    outline: none;
+    border: 0.125rem solid #cccccc;
+}
+    input:focus {
+        border: 0.125rem solid #1BBC9B;
+    }

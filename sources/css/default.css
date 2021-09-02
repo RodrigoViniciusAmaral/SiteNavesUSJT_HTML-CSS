@@ -1,0 +1,36 @@
+body{
+    padding: 3.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    padding: 0 1rem;
+    min-height: 3.5rem;
+}
+
+.content {
+    max-width: 56rem;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E3E4E6;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color:#E3E4E6;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #2D3E50;
+    text-align: center;
+}
+
+p {
+    max-width: 43rem;
+    color:#E3E4E6;
+}

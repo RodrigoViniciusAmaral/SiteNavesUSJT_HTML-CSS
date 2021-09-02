@@ -1,0 +1,35 @@
+#header {
+    background: #2D3E50;
+    top: 0;
+    position:fixed;
+    width: 100%;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+#header .content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+}
+
+#header a {
+    color: #E3E4E6;
+    opacity: 0.8;
+}
+    #header a:hover{
+        opacity: 1;
+    }
+  
+#header #logo_portal {
+    font-size: 1.3rem;
+}
+
+#header nav a {
+    margin-left: 1.75rem;
+    font-size: 0.8rem;
+}
+    #header nav a:first-child {
+        margin-left:0;
+    }
